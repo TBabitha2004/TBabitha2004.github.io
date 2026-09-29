@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Index</title>
+        <style>
+            .box{
+                height: 100px;
+                width: 100px;
+                background-color: rgb(2, 16, 95);
+                color: white;
+                font-size: 32px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+             
+            }
+            .container{
+                display: grid; 
+                gap: 1rem;
+                grid-template-columns:33% 33% 33% ;
+            }
+
+            .matrix{
+                display: grid;
+                gap: 1rem;
+                grid-template-columns: repeat(3,100px); 
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+            <div class="box">5</div>
+            <div class="box">6</div>
+        </div>
+        <br>
+        <div class="matrix">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+    </body>
+</html>
